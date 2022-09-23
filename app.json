@@ -3,8 +3,31 @@
     "name": "app-formacao",
     "slug": "app-formacao",
     "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/icone.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/assets/splash-screen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/icone.png",
+        "backgroundColor": "#3b7355"
+      }
+    },
+    "web": {
+      "favicon": "./src/assets/uniceplac-logo.png"
+    }
   }
 }
